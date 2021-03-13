@@ -1,0 +1,28 @@
+.cursor {
+  position: absolute;
+  background-color: #40E0D0;
+  width: 1px;
+  animation: twinkle 1.2s infinite;
+}
+
+.cursorIcon {
+  position: absolute;
+  font-size: 30px;
+  color: #40E0D0;
+  transform: rotate(-45deg);
+}
+
+@keyframes twinkle {
+  0% {
+    opacity: 1;
+  }
+  30% {
+    opacity: 1;
+  }
+  31% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}

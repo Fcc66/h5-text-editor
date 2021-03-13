@@ -1,0 +1,6 @@
+#container {
+  min-height: 400px;
+  padding: 10px;
+  user-select: none;
+  overflow: auto;
+}

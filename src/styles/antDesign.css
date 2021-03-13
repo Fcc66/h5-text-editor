@@ -1,0 +1,7 @@
+.am-drawer {
+  z-index: -1;
+}
+
+.am-drawer-overlay {
+  display: none;
+}

@@ -1,0 +1,15 @@
+.selectBgLeftIcon, .selectBgRightIcon {
+  position: absolute;
+  color: #40E0D0;
+  font-size: 30px;
+}
+
+.selectBgBlock {
+  position: absolute;
+  z-index: -1;
+  background-color: #E0FFFF;
+}
+
+.selectBgRightIcon {
+  transform: rotate(270deg);
+}
